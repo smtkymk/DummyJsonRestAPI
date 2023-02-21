@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "GetProductsCategories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Kategori Listesi</h1>
+<table class="table table-bordred">
+    <tr>
+        <th> # </th>
+        <th> Category </th>
+        <th> Product </th>
+        
+    </tr>
+    @for (int i = 1; i < ViewBag.count; i++)
+    {
+        <tr>
+            <th> @i </th>
+
+            <td> @ViewBag.values[i-1] </td>
+
+            <td><a href="/Product/GetProductSearchQuery/@i" class="btn btn-warning">Ürünleri Listele</a></td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,46 @@
+﻿@model DummyJSONRestAPI.Models.ProductsModel
+@{
+    ViewData["Title"] = "GetAllProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Ürün Listesi</h1>
+<table class="table table-bordred">
+    <tr>
+        <th> # </th>
+        <th> Title </th>
+        <th> Description </th>
+        <th> Price </th>
+        <th> DiscountPercentage </th>
+        <th> Rating </th>
+        <th> Stock </th>
+        <th> Brand </th>
+        <th> Category </th>
+        <th> Thumbnail </th>
+        <th> Images </th>
+    </tr>
+    @foreach (var item in Model.Products)
+    {
+        <tr>
+            <th> @item.Id </th>
+            <td> @item.Title </td>
+            <td> @item.Description </td>
+            <td> @item.Price </td>
+            <td> @item.DiscountPercentage </td>
+            <td> @item.Rating </td>
+            <td> @item.Stock </td>
+            <td> @item.Brand </td>
+            <td> @item.Category </td>
+            <td> <img src="@item.Thumbnail" height="100" width="100" /></td>
+            <td>
+                @foreach (var img in @item.Images)
+                {
+                    @img
+                }
+            </td>
+            <td><a href="/Product/DeleteProduct/@item.Id" onclick="return confirm('Silmek istediğine emin misin?' );" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Product/EditPutProduct/@item.Id" class="btn btn-warning">Düzenle</a></td>
+        </tr>
+    }
+</table>
+
+

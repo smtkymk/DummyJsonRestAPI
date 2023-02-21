@@ -1,0 +1,51 @@
+﻿@using DummyJSONRestAPI.Models
+@model Product
+@{
+    ViewData["Title"] = "EditPutProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Ürün Düzenle</h1>
+<form method="post">
+    <label>Id Numarası</label>
+    <br />
+    <input type="text" asp-for="Id" placeholder="@Model.Id" disabled="disabled"/>
+    <br />
+    <label>Title</label>
+    <br />
+    <input type="text" asp-for="Title" placeholder="@Model.Title" />
+    <br />
+    <label>Description</label>
+    <br />
+    <input type="text" asp-for="Description" placeholder="@Model.Description" />
+    <br />
+    <label>Price</label>
+    <br />
+    <input type="text" asp-for="Price" placeholder="@Model.Price" />
+    <br />
+    <label>DiscountPercentage</label>
+    <br />
+    <input type="text" asp-for="DiscountPercentage" placeholder="@Model.DiscountPercentage" />
+    <br />
+    <label>Rating</label>
+    <br />
+    <input type="text" asp-for="Rating" placeholder="@Model.Rating" />
+    <br />
+    <label>Stock</label>
+    <br />
+    <input type="text" asp-for="Stock" placeholder="@Model.Stock" />
+    <br />
+    <label>Brand</label>
+    <br />
+    <input type="text" asp-for="Brand" placeholder="@Model.Brand" />
+    <br />
+    <label>Category</label>
+    <br />
+    <input type="text" asp-for="Category" placeholder="@Model.Category" />
+    <br />
+    <label>Thumbnail</label>
+    <br />
+    <input type="text" asp-for="Thumbnail" placeholder="@Model.Thumbnail" />
+    <br />
+    <button type="submit" class="btn btn-info">Güncelle</button>
+</form>

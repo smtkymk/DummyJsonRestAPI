@@ -1,0 +1,45 @@
+﻿@using DummyJSONRestAPI.Models
+@model Product
+@{
+    ViewData["Title"] = "GetProductId";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Aranan Ürün</h1>
+<table class="table table-bordred">
+    <tr>
+        <th> # </th>
+        <th> Title </th>
+        <th> Description </th>
+        <th> Price </th>
+        <th> DiscountPercentage </th>
+        <th> Rating </th>
+        <th> Stock </th>
+        <th> Brand </th>
+        <th> Category </th>
+        <th> Thumbnail </th>
+        <th> Images </th>
+
+
+    </tr>
+
+    <tr>
+        <th> @Model.Id </th>
+        <td> @Model.Title </td>
+        <td> @Model.Description </td>
+        <td> @Model.Price </td>
+        <td> @Model.DiscountPercentage </td>
+        <td> @Model.Rating </td>
+        <td> @Model.Stock </td>
+        <td> @Model.Brand </td>
+        <td> @Model.Category </td>
+        <td> <img src="@Model.Thumbnail" height="100" width="100" /></td>
+        <td>
+            @foreach (var img in Model.Images)
+            {
+                @img
+            }
+        </td>
+    </tr>
+
+</table>

@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "GetProductBySearch";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Ürün Ara</h1>
+<form asp-action="GetProductSearch" asp-controller="Product" method="post">
+    <input type="text" name="search" placeholder="Aranacak Kelimeyi Giriniz..."/>
+    <button href= class="btn btn-input"> Ara </button>
+</form>

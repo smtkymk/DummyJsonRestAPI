@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DummyJSONRestAPI
+build_property.RootNamespace = DummyJSONRestAPI
+build_property.ProjectDir = C:\Users\USER\Desktop\DERSLER\Asp Net Dersleri\Projeler\RestAPI\DummyJSONRestAPI\DummyJSONRestAPI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\USER\Desktop\DERSLER\Asp Net Dersleri\Projeler\RestAPI\DummyJSONRestAPI\DummyJSONRestAPI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Product/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Product/EditPutProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0UHV0UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Product/GetAllProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRBbGxQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Product/GetProductById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRQcm9kdWN0QnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Product/GetProductBySearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRQcm9kdWN0QnlTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Product/GetProductId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRQcm9kdWN0SWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Product/GetProductsCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRQcm9kdWN0c0NhdGVnb3JpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Product/GetProductSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRQcm9kdWN0U2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Product/GetProductSearchQuery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRQcm9kdWN0U2VhcmNoUXVlcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Product/ShowAddUpdatedProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaG93QWRkVXBkYXRlZFByb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Product/ShowDeleteUpdatedProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaG93RGVsZXRlVXBkYXRlZFByb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Product/ShowEditUpdatedProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaG93RWRpdFVwZGF0ZWRQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Desktop/DERSLER/Asp Net Dersleri/Projeler/RestAPI/DummyJSONRestAPI/DummyJSONRestAPI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vq3dc41ps2

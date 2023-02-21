@@ -1,0 +1,12 @@
+﻿@using DummyJSONRestAPI.Models
+@model Product
+@{
+    ViewData["Title"] = "GetProductById";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Ürün Ara</h1>
+<form asp-action="GetProductId" asp-controller="Product" method="post">
+    <input type="text" name="productid" placeholder="Aranacak Id'yi Giriniz."/>
+    <button href = class="btn btn-input"> Ara </button>
+</form>

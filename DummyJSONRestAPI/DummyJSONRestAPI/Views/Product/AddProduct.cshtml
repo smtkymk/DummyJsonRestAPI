@@ -1,0 +1,51 @@
+﻿@using DummyJSONRestAPI.Models
+@model Product
+@{
+    ViewData["Title"] = "AddProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Ürün Ekle</h1>
+<form method="post">
+    <label>Id Numarası</label>
+    <br />
+    <input type="text" asp-for="Id" placeholder="@ViewBag.count" disabled="disabled"/>
+    <br />
+    <label>Title</label>
+    <br />
+    <input type="text" asp-for="Title" placeholder="Title Giriniz" />
+    <br />
+    <label>Description</label>
+    <br />
+    <input type="text" asp-for="Description" placeholder="Description Giriniz" />
+    <br />
+    <label>Price</label>
+    <br />
+    <input type="text" asp-for="Price" placeholder="Price Giriniz" />
+    <br />
+    <label>DiscountPercentage</label>
+    <br />
+    <input type="text" asp-for="DiscountPercentage" placeholder="DiscountPercentage Giriniz" />
+    <br />
+    <label>Rating</label>
+    <br />
+    <input type="text" asp-for="Rating" placeholder="Rating Giriniz." />
+    <br />
+    <label>Stock</label>
+    <br />
+    <input type="text" asp-for="Stock" placeholder="Stock Giriniz" />
+    <br />
+    <label>Brand</label>
+    <br />
+    <input type="text" asp-for="Brand" placeholder="Brand Giriniz" />
+    <br />
+    <label>Category</label>
+    <br />
+    <input type="text" asp-for="Category" placeholder="Category Giriniz" />
+    <br />
+    <label>Thumbnail</label>
+    <br />
+    <input type="text" asp-for="Thumbnail" placeholder="Thumbnail Giriniz" />
+    <br />
+    <button type="submit" class="btn btn-info">Ekle</button>
+</form>
